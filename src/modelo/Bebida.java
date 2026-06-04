@@ -8,13 +8,9 @@ package modelo;
  *
  * @author Asus
  */
-public class Producto {
-
-    //Declarar atrivutos: 1) datos primitivos 2)datos compuestos
-    public String producto;
+public class Bebida {
+    public String nombre;
     public String proveedor;
     public String cliente;
     public String vendedor;
-    
-    
 }
