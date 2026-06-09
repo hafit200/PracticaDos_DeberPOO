@@ -8,6 +8,6 @@ package modelo;
  *
  * @author Asus
  */
-public class Main {
+public class Producto {
+    
 }
-     
