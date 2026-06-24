@@ -10,24 +10,24 @@ import java.time.LocalDate;
  *
  * @author Asus
  */
-public class Proveedor extends Persona {
-    public String marca;
+public class Empleado extends Persona {
+    String cargo;
 
-    public Proveedor() {
+    public Empleado() {
     }
 
-    public Proveedor(String marca) {
-        this.marca = marca;
+    public Empleado(String cargo) {
+        this.cargo = cargo;
     }
 
-    public Proveedor(String marca, int id, int cedula, String nombres, String direccion, int telefono, String correo, LocalDate fechaNacimiento) {
+    public Empleado(String cargo, int id, int cedula, String nombres, String direccion, int telefono, String correo, LocalDate fechaNacimiento) {
         super(id, cedula, nombres, direccion, telefono, correo, fechaNacimiento);
-        this.marca = marca;
+        this.cargo = cargo;
     }
 
+    
+    }
+    
+    
+         
 
-
-    
-    
-    
-}
